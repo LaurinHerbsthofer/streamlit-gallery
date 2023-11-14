@@ -5,9 +5,7 @@ from .dashboard import Dashboard
 class Card(Dashboard.Item):
 
     DEFAULT_CONTENT = (
-        "This impressive paella is a perfect party dish and a fun meal to cook "
-        "together with your guests. Add 1 cup of frozen peas along with the mussels, "
-        "if you like."
+        "This is some default text."
     )
 
     def __call__(self, content):
