@@ -4,25 +4,24 @@ from .dashboard import Dashboard
 
 class Card(Dashboard.Item):
 
-    DEFAULT_CONTENT = (
-        "This is some default text."
-    )
+    def __call__(self,
+                 title="Card title",
+                 subheader="Card subheader",
+                 content="Item content",
+                 media=None,
+                 avatar={'letter': 'A', 'bgcolor': 'red'}):
 
-    def __call__(self, content):
         with mui.Card(key=self._key, sx={"display": "flex", "flexDirection": "column", "borderRadius": 3, "overflow": "hidden"}, elevation=1):
             mui.CardHeader(
-                title="Shrimp and Chorizo Paella",
-                subheader="September 14, 2016",
-                avatar=mui.Avatar("R", sx={"bgcolor": "red"}),
+                title=title,
+                subheader=subheader,
+                avatar=mui.Avatar(avatar['letter'], sx={"bgcolor": avatar['bgcolor']}),
                 action=mui.IconButton(mui.icon.MoreVert),
                 className=self._draggable_class,
             )
-            mui.CardMedia(
-                component="img",
-                height=194,
-                image="https://mui.com/static/images/cards/paella.jpg",
-                alt="Paella dish",
-            )
+            if media:
+                # {"component": "img", "height": 194, "image": "https://mui.com/static/images/cards/paella.jpg", "alt": "Paella dish"}
+                mui.CardMedia(**media)
 
             with mui.CardContent(sx={"flex": 1}):
                 mui.Typography(content)

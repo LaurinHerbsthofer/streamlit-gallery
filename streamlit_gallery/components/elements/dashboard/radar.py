@@ -39,23 +39,24 @@ class Radar(Dashboard.Item):
             }
         }
 
-    def __call__(self, json_data):
+    def __call__(self, json_data=None, title="Radar chart", indexBy="count", keys=['item1', 'item2']):
         try:
             data = json.loads(json_data)
-        except json.JSONDecodeError:
-            data = self.DEFAULT_DATA
+        except Exception as e:
+            data = json_data
+            # data = self.DEFAULT_DATA
 
         with mui.Paper(key=self._key, sx={"display": "flex", "flexDirection": "column", "borderRadius": 3, "overflow": "hidden"}, elevation=1):
             with self.title_bar():
                 mui.icon.Radar()
-                mui.Typography("Radar chart", sx={"flex": 1})
+                mui.Typography(title, sx={"flex": 1})
 
             with mui.Box(sx={"flex": 1, "minHeight": 0}):
                 nivo.Radar(
                     data=data,
                     theme=self._theme["dark" if self._dark_mode else "light"],
-                    keys=[ "chardonay", "carmenere", "syrah" ],
-                    indexBy="taste",
+                    keys=keys,
+                    indexBy=indexBy,
                     valueFormat=">-.2f",
                     margin={ "top": 70, "right": 80, "bottom": 40, "left": 80 },
                     borderColor={ "from": "color" },

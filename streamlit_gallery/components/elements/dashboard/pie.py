@@ -39,7 +39,7 @@ class Pie(Dashboard.Item):
             }
         }
 
-    def __call__(self, json_data=None, item_title="Pie chart"):
+    def __call__(self, json_data=None, title="Pie chart"):
         try:
             data = json.loads(json_data)
         except Exception as e:
@@ -49,7 +49,7 @@ class Pie(Dashboard.Item):
                                           "borderRadius": 3, "overflow": "hidden"}, elevation=1):
             with self.title_bar():
                 mui.icon.PieChart()
-                mui.Typography(item_title, sx={"flex": 1})
+                mui.Typography(title, sx={"flex": 1})
 
             with mui.Box(sx={"flex": 1, "minHeight": 0}):
                 nivo.Pie(
