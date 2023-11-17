@@ -1,9 +1,9 @@
 [theme]
 # FusionViewer settings (I'm not sure yet why this causes a problem)
-#base="light"
+base="light"
 #primaryColor="purple"
 
 # original settings
-base="dark"
+#base="dark"
 backgroundColor="#1e1e1e"
 secondaryBackgroundColor="#252526"

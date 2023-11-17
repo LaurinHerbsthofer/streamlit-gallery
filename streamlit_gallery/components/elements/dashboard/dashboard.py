@@ -27,7 +27,7 @@ class Dashboard:
         def __init__(self, board, x, y, w, h, **item_props):
             self._key = str(uuid4())
             self._draggable_class = Dashboard.DRAGGABLE_CLASS
-            self._dark_mode = True
+            self._dark_mode = False
             board._register(dashboard.Item(self._key, x, y, w, h, **item_props))
 
         def _switch_theme(self):

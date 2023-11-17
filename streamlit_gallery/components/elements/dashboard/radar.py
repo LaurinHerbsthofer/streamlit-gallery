@@ -46,7 +46,7 @@ class Radar(Dashboard.Item):
             data = json_data
             # data = self.DEFAULT_DATA
 
-        with mui.Paper(key=self._key, sx={"display": "flex", "flexDirection": "column", "borderRadius": 3, "overflow": "hidden"}, elevation=1):
+        with mui.Paper(key=self._key, sx={"display": "flex", "flexDirection": "column", "borderRadius": 3, "overflow": "hidden"}, elevation=1):  # overflow: hidden|scroll
             with self.title_bar():
                 mui.icon.Radar()
                 mui.Typography(title, sx={"flex": 1})

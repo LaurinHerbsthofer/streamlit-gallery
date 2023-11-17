@@ -9,14 +9,15 @@ class Card(Dashboard.Item):
                  subheader="Card subheader",
                  content="Item content",
                  media=None,
-                 avatar={'letter': 'A', 'bgcolor': 'red'}):
+                 avatar={'letter': 'A', 'bgcolor': 'red'},
+                 overflow="auto"):
 
-        with mui.Card(key=self._key, sx={"display": "flex", "flexDirection": "column", "borderRadius": 3, "overflow": "hidden"}, elevation=1):
+        with mui.Card(key=self._key, sx={"display": "flex", "flexDirection": "column", "borderRadius": 3, "overflow": overflow}, elevation=1):  # overflow: hidden|scroll|auto, overflowY: scroll
             mui.CardHeader(
                 title=title,
                 subheader=subheader,
                 avatar=mui.Avatar(avatar['letter'], sx={"bgcolor": avatar['bgcolor']}),
-                action=mui.IconButton(mui.icon.MoreVert),
+                #action=mui.IconButton(mui.icon.MoreVert),
                 className=self._draggable_class,
             )
             if media:
@@ -26,6 +27,7 @@ class Card(Dashboard.Item):
             with mui.CardContent(sx={"flex": 1}):
                 mui.Typography(content)
 
-            with mui.CardActions(disableSpacing=True):
-                mui.IconButton(mui.icon.Favorite)
-                mui.IconButton(mui.icon.Share)
+            # add a like and share button
+            # with mui.CardActions(disableSpacing=True):
+            #     mui.IconButton(mui.icon.Favorite)
+            #     mui.IconButton(mui.icon.Share)
