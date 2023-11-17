@@ -52,6 +52,7 @@ class Radar(Dashboard.Item):
                 mui.Typography(title, sx={"flex": 1})
 
             with mui.Box(sx={"flex": 1, "minHeight": 0}):
+
                 nivo.Radar(
                     data=data,
                     theme=self._theme["dark" if self._dark_mode else "light"],

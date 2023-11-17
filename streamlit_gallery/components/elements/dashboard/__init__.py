@@ -5,3 +5,9 @@ from .editor import Editor
 from .pie import Pie
 from .player import Player
 from .radar import Radar
+from .bar import Bar
+from .areabump import Areabump
+from .bump import Bump
+from .boxplot import Boxplot
+from .chord import Chord
+from .dataloader import *

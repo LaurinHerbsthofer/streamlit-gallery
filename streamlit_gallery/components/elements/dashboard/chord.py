@@ -4,7 +4,7 @@ from streamlit_elements import nivo, mui
 from .dashboard import Dashboard
 
 
-class Pie(Dashboard.Item):
+class Chord(Dashboard.Item):
 
     DEFAULT_DATA = [
         { "id": "java", "label": "java", "value": 465, "color": "hsl(128, 70%, 50%)" },
@@ -39,7 +39,7 @@ class Pie(Dashboard.Item):
             }
         }
 
-    def __call__(self, json_data=None, title="Pie chart"):
+    def __call__(self, json_data=None, title="Chord chart"):
         try:
             data = json.loads(json_data)
         except Exception as e:
@@ -52,13 +52,15 @@ class Pie(Dashboard.Item):
                 mui.Typography(title, sx={"flex": 1})
 
             with mui.Box(sx={"flex": 1, "minHeight": 0}):
-                nivo.Pie(
+                nivo.Chord(
                     data=data,
+                    keys=['John', 'Raoul', 'Jane', 'Marcel', 'Ibrahim'],
                     theme=self._theme["dark" if self._dark_mode else "light"],
                     margin={"top": 40, "right": 80, "bottom": 80, "left": 80},
-                    innerRadius=0.5,
-                    valueFormat=".0f",  # now humbers should be displayed (decimal points,...)
-                    padAngle=0.7,
+                    innerRadiusRatio=0.96,
+                    innerRadiusOffset=0.02,
+                    inactiveArcOpacity=0.25,
+                    padAngle=0,
                     cornerRadius=3,
                     activeOuterRadiusOffset=8,
                     borderWidth=1,

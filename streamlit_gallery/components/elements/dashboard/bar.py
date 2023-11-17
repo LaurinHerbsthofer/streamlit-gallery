@@ -4,15 +4,7 @@ from streamlit_elements import nivo, mui
 from .dashboard import Dashboard
 
 
-class Pie(Dashboard.Item):
-
-    DEFAULT_DATA = [
-        { "id": "java", "label": "java", "value": 465, "color": "hsl(128, 70%, 50%)" },
-        { "id": "rust", "label": "rust", "value": 140, "color": "hsl(178, 70%, 50%)" },
-        { "id": "scala", "label": "scala", "value": 40, "color": "hsl(322, 70%, 50%)" },
-        { "id": "ruby", "label": "ruby", "value": 439, "color": "hsl(117, 70%, 50%)" },
-        { "id": "elixir", "label": "elixir", "value": 366, "color": "hsl(286, 70%, 50%)" }
-    ]
+class Bar(Dashboard.Item):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -39,7 +31,9 @@ class Pie(Dashboard.Item):
             }
         }
 
-    def __call__(self, json_data=None, title="Pie chart"):
+    def __call__(self, json_data=None, title="Bar chart",
+                 keys=['hot dog', 'burger', 'sandwich', 'kebab', 'fries', 'donut'],
+                 indexBy="country"):
         try:
             data = json.loads(json_data)
         except Exception as e:
@@ -52,12 +46,12 @@ class Pie(Dashboard.Item):
                 mui.Typography(title, sx={"flex": 1})
 
             with mui.Box(sx={"flex": 1, "minHeight": 0}):
-                nivo.Pie(
+                nivo.Bar(
                     data=data,
+                    keys=keys,
+                    indexBy=indexBy,
                     theme=self._theme["dark" if self._dark_mode else "light"],
                     margin={"top": 40, "right": 80, "bottom": 80, "left": 80},
-                    innerRadius=0.5,
-                    valueFormat=".0f",  # now humbers should be displayed (decimal points,...)
                     padAngle=0.7,
                     cornerRadius=3,
                     activeOuterRadiusOffset=8,
@@ -115,30 +109,30 @@ class Pie(Dashboard.Item):
                         { "match": { "id": "elixir" }, "id": "lines" },
                         { "match": { "id": "javascript" }, "id": "lines" }
                     ],
-                    legends=[]
-                    # legends=[
-                    #     {
-                    #         "anchor": "bottom",
-                    #         "direction": "row",
-                    #         "justify": False,
-                    #         "translateX": 0,
-                    #         "translateY": 56,
-                    #         "itemsSpacing": 0,
-                    #         "itemWidth": 100,
-                    #         "itemHeight": 18,
-                    #         "itemTextColor": "#999",
-                    #         "itemDirection": "left-to-right",
-                    #         "itemOpacity": 1,
-                    #         "symbolSize": 18,
-                    #         "symbolShape": "circle",
-                    #         "effects": [
-                    #             {
-                    #                 "on": "hover",
-                    #                 "style": {
-                    #                     "itemTextColor": "#000"
-                    #                 }
-                    #             }
-                    #         ]
-                    #     }
-                    # ]
+                    # legends=[]
+                    legends=[
+                        {
+                            "anchor": "bottom",
+                            "direction": "row",
+                            "justify": False,
+                            "translateX": 0,
+                            "translateY": 56,
+                            "itemsSpacing": 0,
+                            "itemWidth": 100,
+                            "itemHeight": 18,
+                            "itemTextColor": "#999",
+                            "itemDirection": "left-to-right",
+                            "itemOpacity": 1,
+                            "symbolSize": 18,
+                            "symbolShape": "circle",
+                            "effects": [
+                                {
+                                    "on": "hover",
+                                    "style": {
+                                        "itemTextColor": "#000"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 )
