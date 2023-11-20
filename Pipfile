@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+streamlit-ace = "*"
+streamlit-discourse = "*"
+streamlit-disqus = "*"
+streamlit-elements = "*"
+streamlit-pandas-profiling = "*"
+streamlit-player = "*"
+streamlit-quill = "*"
+pandas-profiling = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
