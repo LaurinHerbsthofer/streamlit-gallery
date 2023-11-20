@@ -17,7 +17,10 @@ from .dashboard import Card, Radar, Pie, Bar, Boxplot, Bump, Areabump, Chord
 # add a new python class for a new plot type that you need (make a copy e.g. of pie.py, rename the class, add it to the imports on top, add it to the dashboard/__init__.py file and use the respective Nivo plotting function)
 # make sure to check the "data" tab on nivo.rocks to see in what format any given plot expects the input data
 # finally, you might need to make changes to the call of the plot function itself, like adding a "keys=[]" argument, or something similar, just check the nivo.rocks example code
-#todo add boxplots
+
+#todo add boxplots: if you search the PyCharm project for "ResponsiveBar" you will find some javascript files installed in the project environment that are likely the JS/React code snippets that are called from streamlit
+#however, you will not find code for ResponsiveBoxplot (!) which is likely why boxplots don't work. One fix would likely be to install the nivo boxplot code in the local environment using npm i @nivo/boxplot (https://www.npmjs.com/package/@nivo/boxplot)
+
 #todo add pyanatomogram picture with real computation
 
 
