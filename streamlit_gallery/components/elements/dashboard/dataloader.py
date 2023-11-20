@@ -130,7 +130,7 @@ def get_fusion_report_rows():
 def get_bump_data():
     return [
   {
-    "id": "Serie 1",
+    "id": "ECOG",
     "data": [
       {
         "x": 2000,
@@ -155,7 +155,7 @@ def get_bump_data():
     ]
   },
   {
-    "id": "Serie 2",
+    "id": "Body weight",
     "data": [
       {
         "x": 2000,
@@ -180,7 +180,7 @@ def get_bump_data():
     ]
   },
   {
-    "id": "Serie 3",
+    "id": "Ca",
     "data": [
       {
         "x": 2000,
@@ -205,7 +205,7 @@ def get_bump_data():
     ]
   },
   {
-    "id": "Serie 4",
+    "id": "CHOL",
     "data": [
       {
         "x": 2000,
@@ -230,7 +230,7 @@ def get_bump_data():
     ]
   },
   {
-    "id": "Serie 5",
+    "id": "GLUC",
     "data": [
       {
         "x": 2000,
@@ -253,38 +253,13 @@ def get_bump_data():
         "y": 6
       }
     ]
-  },
-  {
-    "id": "Serie 6",
-    "data": [
-      {
-        "x": 2000,
-        "y": 4
-      },
-      {
-        "x": 2001,
-        "y": 3
-      },
-      {
-        "x": 2002,
-        "y": 2
-      },
-      {
-        "x": 2003,
-        "y": 8
-      },
-      {
-        "x": 2004,
-        "y": 8
-      }
-    ]
   }
 ]
 
 def get_areabump_data():
     return [
   {
-    "id": "JavaScript",
+    "id": "Ca",
     "data": [
       {
         "x": 2000,
@@ -313,7 +288,7 @@ def get_areabump_data():
     ]
   },
   {
-    "id": "ReasonML",
+    "id": "CHOL",
     "data": [
       {
         "x": 2000,
@@ -342,7 +317,7 @@ def get_areabump_data():
     ]
   },
   {
-    "id": "TypeScript",
+    "id": "GLUC",
     "data": [
       {
         "x": 2000,
@@ -371,7 +346,7 @@ def get_areabump_data():
     ]
   },
   {
-    "id": "Elm",
+    "id": "HBA1IF",
     "data": [
       {
         "x": 2000,
@@ -400,7 +375,7 @@ def get_areabump_data():
     ]
   },
   {
-    "id": "CoffeeScript",
+    "id": "HDL",
     "data": [
       {
         "x": 2000,
@@ -432,1600 +407,1600 @@ def get_areabump_data():
 def get_boxplot_data():
     return [
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.349123488941434
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 6.151749241067562
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.593987513318862
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.880919423789582
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 6.36745109757427
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.0158945618211845
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.751331460122424
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.758074687115144
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.362136263793628
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.883635642526908
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 3.680951894527809
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.194632712261644
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.220760692520841
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.351117312941202
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.269173428316614
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.864386432063807
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 2.6592103338323634
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 7.092189574771535
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.6860482625172715
         },
         {
-            "group": "Alpha",
-            "subgroup": "A",
+            "group": "T cells",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.758476893242824
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.09634057769023
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.393630648720473
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.534692726166843
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.692424543191319
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.675375659975229
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.798887716631256
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 7.329418217555768
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.308137103383694
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.055038466418877
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.70764882224717
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 3.998341194341981
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.307528757757395
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.327154404401608
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.574550412206173
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.056182987685064
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.5364196020926375
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.373065040214139
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.8525525997996715
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.998879351507891
         },
         {
-            "group": "Alpha",
-            "subgroup": "B",
+            "group": "T cells",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 7.300555476776495
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 8.593207104845387
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 6.803805231627961
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 7.393827858628626
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 8.757124184877108
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 7.704816219737244
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 7.708208154709452
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 8.033208427076172
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 9.306907549019492
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 9.670181286681723
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 7.860837776552886
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 6.926771391656372
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 8.274940300495775
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 7.7658619062250125
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 7.219158787011299
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 7.552854111215449
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 7.898129365622752
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 8.654180170606008
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 6.158962928927249
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 8.912804031087532
         },
         {
-            "group": "Beta",
-            "subgroup": "A",
+            "group": "Succinic Acid",
+            "subgroup": "responder",
             "mu": 8,
             "sd": 1.4,
             "n": 20,
             "value": 7.2720651623624
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 6.609174832361711
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 6.429917896380009
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 6.056644820938463
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 6.715526581861837
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 7.386750149551726
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 5.373761025510219
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 7.14784326105486
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 5.992974802510931
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 7.963978936691964
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 6.526514831187629
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 7.03924585666192
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 7.692359660821619
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 8.169867586637265
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 7.3255541635540595
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 5.277474752801549
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 7.23600156604916
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 8.835175694206704
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 6.781531104000324
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 8.085544525265554
         },
         {
-            "group": "Beta",
-            "subgroup": "B",
+            "group": "Succinic Acid",
+            "subgroup": "non-responder",
             "mu": 7.5,
             "sd": 1.4,
             "n": 20,
             "value": 8.058456158054152
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 2.9296133286692494
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 3.6490374028374033
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.277377874464911
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.607498852033886
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 6.000287126478622
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.775136383435469
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.0858901117256865
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 7.06606707598189
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.874006381026506
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.767968570126194
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.533090436396612
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.707436415274839
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.253904425092803
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.4973039253836
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.617472181612674
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.350804456381212
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.13374422906633
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.786330013881678
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.568571837283549
         },
         {
-            "group": "Gamma",
-            "subgroup": "A",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.476418659878074
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 8.06952315301382
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 8.023705530413254
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 7.669361093961307
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 7.880585369729961
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 5.072365113749138
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 7.71688536499242
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 8.763557944297098
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 5.583433866007992
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 1.934588438815826
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 9.286169716426471
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 6.638840175835807
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 8.43702951494565
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 10.083021839703424
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 5.613380697942182
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 10.176029311944236
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 8.937868796458357
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 7.358874320391635
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 7.9214632192282926
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 8.851602151323455
         },
         {
-            "group": "Gamma",
-            "subgroup": "B",
+            "group": "CD4-CD8+ pop1",
+            "subgroup": "non-responder",
             "mu": 7.2,
             "sd": 1.8,
             "n": 20,
             "value": 7.344463694837667
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 6.066553729419105
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 3.539117011655381
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 3.779393387804897
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 7.1969623742243085
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.058055074128554
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.772008054361306
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.842538428557226
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.791890150232596
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.197863184108862
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.533193853277447
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.9260145861596145
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 3.7209203291589885
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.305817940786989
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.42181302722615
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 4.434451097733401
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.11797402132471
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 3.9383175456252317
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.268020535990022
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 2.756104566753344
         },
         {
-            "group": "Delta",
-            "subgroup": "A",
+            "group": "ERBB2",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1,
             "n": 20,
             "value": 5.345626185734579
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.179803750773409
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 4.780200434153198
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 4.792331184039259
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.381792593910859
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.552356787873941
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.882108986032867
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.768244429381534
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.2318652312631295
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.4899740079357375
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.395966308037094
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 7.0735933363079235
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 4.368501474802013
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.005287559603644
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 7.552315949845929
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.103011794030221
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 6.522612233413192
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 3.788954730096808
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 7.569657573817494
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 8.678218774209126
         },
         {
-            "group": "Delta",
-            "subgroup": "B",
+            "group": "ERBB2",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 1,
             "n": 20,
             "value": 5.07347619915854
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.67718359349138
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 3.975687554253355
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.895184763732461
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.994929843915772
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.427922778641409
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.866127870570349
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 5.168231043024714
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.485957313099086
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 5.498375076839985
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.70507890728923
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 5.138043334161617
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 2.461237633951741
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 5.060387289145632
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.0343044256234535
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 6.092620705778971
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.565956060145201
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 5.527260533130536
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 2.5878236785815703
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 4.604119691639516
         },
         {
-            "group": "Epsilon",
-            "subgroup": "A",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "responder",
             "mu": 5,
             "sd": 1.4,
             "n": 20,
             "value": 5.082448827634411
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 4.321663094739084
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 7.18689888227933
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 6.054158647289736
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 6.630050245455329
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 4.918794703930794
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 7.235680943758366
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 5.5219915514484414
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 2.7725395294621045
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 4.187813317284514
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 9.984022298530254
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 4.549887301507367
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 7.5548617662920625
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 1.8307837952535815
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 7.874881853321
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 6.766116628702203
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 9.55617732042336
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 2.997796386488914
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 9.884144334569362
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
             "value": 6.962993578966966
         },
         {
-            "group": "Epsilon",
-            "subgroup": "B",
+            "group": "Kyn:Trp ratio",
+            "subgroup": "non-responder",
             "mu": 6,
             "sd": 3,
             "n": 20,
@@ -2112,39 +2087,39 @@ def get_NGS_SNPs():
 
 def get_chord_data():
     return [
-  [
-    321,
-    64,
-    488,
-    1438,
-    1907
-  ],
-  [
-    467,
-    235,
-    448,
-    1665,
-    1260
-  ],
-  [
-    43,
-    141,
-    128,
-    1549,
-    509
-  ],
-  [
-    15,
-    1462,
-    1996,
-    405,
-    185
-  ],
-  [
-    1142,
-    345,
-    207,
-    385,
-    308
-  ]
-]
+      [
+        321,
+        64,
+        488,
+        1438,
+        1907
+      ],
+      [
+        467,
+        235,
+        448,
+        1665,
+        1260
+      ],
+      [
+        43,
+        141,
+        128,
+        1549,
+        509
+      ],
+      [
+        15,
+        1462,
+        1996,
+        405,
+        185
+      ],
+      [
+        1142,
+        345,
+        207,
+        385,
+        308
+      ]
+    ]

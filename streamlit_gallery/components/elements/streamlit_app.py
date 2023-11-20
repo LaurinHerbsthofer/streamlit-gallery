@@ -70,16 +70,17 @@ def main():
             card_summary=Card(board, 7, 0, 5, 5, minW=2, minH=4),
             card_clinicaldata=Card(board, 7, 7, 5, 5, minW=2, minH=4),
 
-            radar_outliers=Radar(board, 0, 11, 3, 5, minW=2, minH=4),
-            pie_flowcytometry=Pie(board, 3, 11, 3, 5, minW=3, minH=4),
-            pie_metabolomics=Bar(board, 6, 11, 3, 5, minW=3, minH=4),
-            pie_NGS_SNPcounts=Pie(board, 9, 11, 3, 5, minW=3, minH=4),
+            radar_outliers=Radar(board, 0, 11, 4, 5, minW=2, minH=4),
+            pie_flowcytometry=Pie(board, 4, 11, 4, 5, minW=3, minH=4),
+            pie_metabolomics=Bar(board, 8, 11, 4, 5, minW=3, minH=4),
 
-            bar_NGS_SNPs=Bar(board, 0, 16, 6, 6, minW=3, minH=4),
-            areabump_demo=Areabump(board, 0, 16, 6, 6, minW=3, minH=4),
-            bump_demo=Bump(board, 6, 16, 6, 6, minW=3, minH=4),
-            boxplot_demo=Boxplot(board, 0, 16, 6, 6, minW=3, minH=4),
-            chord_demo=Chord(board, 6, 16, 3, 6, minW=3, minH=4),
+            pie_NGS_SNPcounts=Pie(board, 0, 16, 3, 5, minW=3, minH=4),
+            bar_NGS_SNPs=Bar(board, 3, 16, 6, 5, minW=3, minH=4),
+            chord_demo=Chord(board, 9, 16, 3, 5, minW=3, minH=4),
+
+            areabump_demo=Areabump(board, 0, 21, 6, 6, minW=3, minH=4),
+            bump_demo=Bump(board, 6, 21, 6, 6, minW=3, minH=4),
+            boxplot_demo=Boxplot(board, 0, 21, 6, 6, minW=3, minH=4),
 
             # editor=Editor(board, 0, 6, 6, 6, minW=3, minH=3),
             # player=Player(board, 6, 6, 6, 6, minH=5),

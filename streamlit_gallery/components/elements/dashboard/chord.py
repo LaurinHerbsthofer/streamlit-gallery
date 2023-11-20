@@ -6,14 +6,6 @@ from .dashboard import Dashboard
 
 class Chord(Dashboard.Item):
 
-    DEFAULT_DATA = [
-        { "id": "java", "label": "java", "value": 465, "color": "hsl(128, 70%, 50%)" },
-        { "id": "rust", "label": "rust", "value": 140, "color": "hsl(178, 70%, 50%)" },
-        { "id": "scala", "label": "scala", "value": 40, "color": "hsl(322, 70%, 50%)" },
-        { "id": "ruby", "label": "ruby", "value": 439, "color": "hsl(117, 70%, 50%)" },
-        { "id": "elixir", "label": "elixir", "value": 366, "color": "hsl(286, 70%, 50%)" }
-    ]
-
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._theme = {
@@ -39,7 +31,7 @@ class Chord(Dashboard.Item):
             }
         }
 
-    def __call__(self, json_data=None, title="Chord chart"):
+    def __call__(self, json_data=None, title="Chord chart", keys=["Lung", "Colon", "Breast", "Prostate", "Liver"]):
         try:
             data = json.loads(json_data)
         except Exception as e:
@@ -54,7 +46,7 @@ class Chord(Dashboard.Item):
             with mui.Box(sx={"flex": 1, "minHeight": 0}):
                 nivo.Chord(
                     data=data,
-                    keys=['John', 'Raoul', 'Jane', 'Marcel', 'Ibrahim'],
+                    keys=keys,
                     theme=self._theme["dark" if self._dark_mode else "light"],
                     margin={"top": 40, "right": 80, "bottom": 80, "left": 80},
                     innerRadiusRatio=0.96,
