@@ -18,10 +18,7 @@ from .dashboard import Card, Radar, Pie, Bar, Boxplot, Bump, Areabump, Chord, He
 # make sure to check the "data" tab on nivo.rocks to see in what format any given plot expects the input data
 # finally, you might need to make changes to the call of the plot function itself, like adding a "keys=[]" argument, or something similar, just check the nivo.rocks example code
 
-#todo add boxplots: boxplots were likely added to Nivo after April 2023 (https://github.com/plouc/nivo/issues/849), so they are maybe not yet in the code that streamlit and streamlit-elements depend on.
-# if you search the PyCharm project for "ResponsiveBar" (C:\Users\ocherbstho\.virtualenvs\streamlit-gallery-fWSS-baO\Lib\site-packages\streamlit_elements\frontend\build\_next\static\chunks\pages) you will find some javascript files installed in the project environment that are likely the JS/React code snippets that are called from streamlit
-#however, you will not find code for ResponsiveBoxplot (!) which is likely why boxplots don't work. One fix would likely be to install the nivo boxplot code in the local environment using npm i @nivo/boxplot (https://www.npmjs.com/package/@nivo/boxplot)
-# the code for boxplots is available on npmjs so adding them to the environment folder mentioned above could work https://www.npmjs.com/package/@nivo/boxplot?activeTab=code but its unclear to me how to do this properly
+# adding boxplots: boxplots were likely added to Nivo after April 2023 (https://github.com/plouc/nivo/issues/849), so they were not yet in the streamlit-elements code. I documented the problem and its solution in this issue: https://github.com/okld/streamlit-elements/issues/31
 
 #todo add pyanatomogram picture with real computation
 
