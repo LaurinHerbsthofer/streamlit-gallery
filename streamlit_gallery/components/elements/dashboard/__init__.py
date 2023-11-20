@@ -10,4 +10,5 @@ from .areabump import Areabump
 from .bump import Bump
 from .boxplot import Boxplot
 from .chord import Chord
+from .heatmap import Heatmap
 from .dataloader import *

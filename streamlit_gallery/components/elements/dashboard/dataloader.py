@@ -2123,3 +2123,336 @@ def get_chord_data():
         308
       ]
     ]
+
+
+def get_heatmap_data():
+    return [
+      {
+        "id": "Colon",
+        "data": [
+          {
+            "x": "T cells",
+            "y": 91905
+          },
+          {
+            "x": "Memory T cells",
+            "y": 67488
+          },
+          {
+            "x": "Tregs",
+            "y": 44001
+          },
+          {
+            "x": "CD147high Tregs",
+            "y": 83133
+          },
+          {
+            "x": "NK cells",
+            "y": 76203
+          },
+          {
+            "x": "PD-L1+ cells",
+            "y": 32676
+          },
+          {
+            "x": "LAG3+ in NK cells",
+            "y": -69254
+          },
+          {
+            "x": "T helper cells",
+            "y": 37374
+          },
+          {
+            "x": "TEMRA T helper cells",
+            "y": -72712
+          }
+        ]
+      },
+      {
+        "id": "Prostate",
+        "data": [
+          {
+            "x": "T cells",
+            "y": 52437
+          },
+          {
+            "x": "Memory T cells",
+            "y": -70491
+          },
+          {
+            "x": "Tregs",
+            "y": 72315
+          },
+          {
+            "x": "CD147high Tregs",
+            "y": 27376
+          },
+          {
+            "x": "NK cells",
+            "y": -80870
+          },
+          {
+            "x": "PD-L1+ cells",
+            "y": -65458
+          },
+          {
+            "x": "LAG3+ in NK cells",
+            "y": 1108
+          },
+          {
+            "x": "T helper cells",
+            "y": 13582
+          },
+          {
+            "x": "TEMRA T helper cells",
+            "y": -52695
+          }
+        ]
+      },
+      {
+        "id": "Liver",
+        "data": [
+          {
+            "x": "T cells",
+            "y": 87154
+          },
+          {
+            "x": "Memory T cells",
+            "y": 68354
+          },
+          {
+            "x": "Tregs",
+            "y": 64427
+          },
+          {
+            "x": "CD147high Tregs",
+            "y": 86419
+          },
+          {
+            "x": "NK cells",
+            "y": 7815
+          },
+          {
+            "x": "PD-L1+ cells",
+            "y": 7087
+          },
+          {
+            "x": "LAG3+ in NK cells",
+            "y": 94334
+          },
+          {
+            "x": "T helper cells",
+            "y": 80123
+          },
+          {
+            "x": "TEMRA T helper cells",
+            "y": -30957
+          }
+        ]
+      },
+      {
+        "id": "Lung",
+        "data": [
+          {
+            "x": "T cells",
+            "y": 91971
+          },
+          {
+            "x": "Memory T cells",
+            "y": -6383
+          },
+          {
+            "x": "Tregs",
+            "y": -51408
+          },
+          {
+            "x": "CD147high Tregs",
+            "y": -23222
+          },
+          {
+            "x": "NK cells",
+            "y": -12368
+          },
+          {
+            "x": "PD-L1+ cells",
+            "y": -31769
+          },
+          {
+            "x": "LAG3+ in NK cells",
+            "y": 49604
+          },
+          {
+            "x": "T helper cells",
+            "y": 49330
+          },
+          {
+            "x": "TEMRA T helper cells",
+            "y": -12511
+          }
+        ]
+      },
+      {
+        "id": "Brain",
+        "data": [
+          {
+            "x": "T cells",
+            "y": -28546
+          },
+          {
+            "x": "Memory T cells",
+            "y": -26852
+          },
+          {
+            "x": "Tregs",
+            "y": -19849
+          },
+          {
+            "x": "CD147high Tregs",
+            "y": 3205
+          },
+          {
+            "x": "NK cells",
+            "y": -32908
+          },
+          {
+            "x": "PD-L1+ cells",
+            "y": -94682
+          },
+          {
+            "x": "LAG3+ in NK cells",
+            "y": 91627
+          },
+          {
+            "x": "T helper cells",
+            "y": 71447
+          },
+          {
+            "x": "TEMRA T helper cells",
+            "y": -53774
+          }
+        ]
+      },
+      {
+        "id": "Breast",
+        "data": [
+          {
+            "x": "T cells",
+            "y": -64954
+          },
+          {
+            "x": "Memory T cells",
+            "y": -18560
+          },
+          {
+            "x": "Tregs",
+            "y": -51971
+          },
+          {
+            "x": "CD147high Tregs",
+            "y": 18297
+          },
+          {
+            "x": "NK cells",
+            "y": 44533
+          },
+          {
+            "x": "PD-L1+ cells",
+            "y": 31739
+          },
+          {
+            "x": "LAG3+ in NK cells",
+            "y": 64121
+          },
+          {
+            "x": "T helper cells",
+            "y": 44428
+          },
+          {
+            "x": "TEMRA T helper cells",
+            "y": 62130
+          }
+        ]
+      },
+      {
+        "id": "Pancreas",
+        "data": [
+          {
+            "x": "T cells",
+            "y": 26133
+          },
+          {
+            "x": "Memory T cells",
+            "y": -50872
+          },
+          {
+            "x": "Tregs",
+            "y": -65540
+          },
+          {
+            "x": "CD147high Tregs",
+            "y": 73007
+          },
+          {
+            "x": "NK cells",
+            "y": 6567
+          },
+          {
+            "x": "PD-L1+ cells",
+            "y": 95513
+          },
+          {
+            "x": "LAG3+ in NK cells",
+            "y": -63153
+          },
+          {
+            "x": "T helper cells",
+            "y": -13013
+          },
+          {
+            "x": "TEMRA T helper cells",
+            "y": 22334
+          }
+        ]
+      },
+      {
+        "id": "Thyroid",
+        "data": [
+          {
+            "x": "T cells",
+            "y": -34617
+          },
+          {
+            "x": "Memory T cells",
+            "y": 92318
+          },
+          {
+            "x": "Tregs",
+            "y": 35872
+          },
+          {
+            "x": "CD147high Tregs",
+            "y": 20236
+          },
+          {
+            "x": "NK cells",
+            "y": -78687
+          },
+          {
+            "x": "PD-L1+ cells",
+            "y": 90959
+          },
+          {
+            "x": "LAG3+ in NK cells",
+            "y": -4384
+          },
+          {
+            "x": "T helper cells",
+            "y": -21764
+          },
+          {
+            "x": "TEMRA T helper cells",
+            "y": -90679
+          }
+        ]
+      }
+    ]

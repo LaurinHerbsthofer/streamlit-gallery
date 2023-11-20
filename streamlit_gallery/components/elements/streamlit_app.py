@@ -11,7 +11,7 @@ from types import SimpleNamespace
 # you will be able to instantiate multiple cards of a given class later in the code
 from .dashboard import Dashboard, dataloader
 # from .dashboard import Editor, DataGrid, Player
-from .dashboard import Card, Radar, Pie, Bar, Boxplot, Bump, Areabump, Chord
+from .dashboard import Card, Radar, Pie, Bar, Boxplot, Bump, Areabump, Chord, Heatmap
 
 # adding new plot types: the python code is just a wrapper around the javascript Nivo package https://nivo.rocks/bar/
 # add a new python class for a new plot type that you need (make a copy e.g. of pie.py, rename the class, add it to the imports on top, add it to the dashboard/__init__.py file and use the respective Nivo plotting function)
@@ -80,7 +80,8 @@ def main():
 
             areabump_demo=Areabump(board, 0, 21, 6, 6, minW=3, minH=4),
             bump_demo=Bump(board, 6, 21, 6, 6, minW=3, minH=4),
-            boxplot_demo=Boxplot(board, 0, 21, 6, 6, minW=3, minH=4),
+            boxplot_demo=Boxplot(board, 0, 27, 6, 6, minW=3, minH=4),
+            heatmap_demo=Heatmap(board, 6, 27, 6, 6, minW=3, minH=4),
 
             # editor=Editor(board, 0, 6, 6, 6, minW=3, minH=3),
             # player=Player(board, 6, 6, 6, 6, minH=5),
@@ -148,20 +149,23 @@ def main():
                                title="Metabolomics",
                                indexBy="id",
                                keys=["value"])
+
             w.pie_NGS_SNPcounts(json_data=dataloader.get_NGS_SNP_counts(),
                                 title="NGS SNP counts")
+            w.chord_demo(json_data=dataloader.get_chord_data())
+            w.bar_NGS_SNPs(json_data=dataloader.get_NGS_SNPs(),
+                           title="NGS SNP details",
+                           keys=["Transition", "Transversion", ">1 Nucleotide"])
 
             try:
                 w.boxplot_demo(json_data=dataloader.get_boxplot_data())
             except:
                 st.warning("You are using the default streamlit-elements installation. For boxplot support you need to modify and build streamlit-elements manually!")
 
-            w.bar_NGS_SNPs(json_data=dataloader.get_NGS_SNPs(),
-                           title="NGS SNP details",
-                           keys=["Transition", "Transversion", ">1 Nucleotide"])
             w.areabump_demo(json_data=dataloader.get_areabump_data())
             w.bump_demo(json_data=dataloader.get_bump_data())
-            w.chord_demo(json_data=dataloader.get_chord_data())
+            w.heatmap_demo(json_data=dataloader.get_heatmap_data())
+
 
             # w.editor()
             # w.player()
