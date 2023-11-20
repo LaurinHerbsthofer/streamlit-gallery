@@ -1,0 +1,18 @@
+version: "3"
+
+networks:
+  default:
+    external:
+      name: python_default
+
+
+services:
+  streamlitgallerydemo:
+    container_name: streamlitgallerydemo
+    build: .
+    restart: "unless-stopped"
+    #volumes:
+    #  - /home/laurin/docker_volume_tests/my_input:/app/input
+    #  - /home/laurin/docker_volume_tests/my_output:/app/output
+    ports:
+      - "52899:8501"

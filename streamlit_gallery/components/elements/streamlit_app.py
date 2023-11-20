@@ -151,7 +151,11 @@ def main():
             w.pie_NGS_SNPcounts(json_data=dataloader.get_NGS_SNP_counts(),
                                 title="NGS SNP counts")
 
-            w.boxplot_demo(json_data=dataloader.get_boxplot_data())
+            try:
+                w.boxplot_demo(json_data=dataloader.get_boxplot_data())
+            except:
+                st.warning("You are using the default streamlit-elements installation. For boxplot support you need to modify and build streamlit-elements manually!")
+
             w.bar_NGS_SNPs(json_data=dataloader.get_NGS_SNPs(),
                            title="NGS SNP details",
                            keys=["Transition", "Transversion", ">1 Nucleotide"])
