@@ -78,7 +78,7 @@ def main():
             bar_NGS_SNPs=Bar(board, 0, 16, 6, 6, minW=3, minH=4),
             areabump_demo=Areabump(board, 0, 16, 6, 6, minW=3, minH=4),
             bump_demo=Bump(board, 6, 16, 6, 6, minW=3, minH=4),
-            # boxplot_demo=Boxplot(board, 0, 16, 6, 6, minW=3, minH=4),
+            boxplot_demo=Boxplot(board, 0, 16, 6, 6, minW=3, minH=4),
             chord_demo=Chord(board, 6, 16, 3, 6, minW=3, minH=4),
 
             # editor=Editor(board, 0, 6, 6, 6, minW=3, minH=3),
@@ -150,7 +150,7 @@ def main():
             w.pie_NGS_SNPcounts(json_data=dataloader.get_NGS_SNP_counts(),
                                 title="NGS SNP counts")
 
-            # w.boxplot_demo(json_data=dataloader.get_boxplot_data())
+            w.boxplot_demo(json_data=dataloader.get_boxplot_data())
             w.bar_NGS_SNPs(json_data=dataloader.get_NGS_SNPs(),
                            title="NGS SNP details",
                            keys=["Transition", "Transversion", ">1 Nucleotide"])

@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pydantic = "==1.10.13"
 streamlit = "*"
 streamlit-ace = "*"
 streamlit-discourse = "*"

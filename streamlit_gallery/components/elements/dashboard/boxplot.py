@@ -52,8 +52,8 @@ class Boxplot(Dashboard.Item):
                 mui.Typography(title, sx={"flex": 1})
 
             with mui.Box(sx={"flex": 1, "minHeight": 0}):
-                # fixme LAH: this is not working yet! somehow nivo.boxplot does not exist (no matter if written in camel case or not)
-                nivo.boxplot(
+                # LAH: this only works if you modified the original streamlit-elements repo and built it yourself using the Makefile, see my description
+                nivo.BoxPlot(
                     data=data,
                     theme=self._theme["dark" if self._dark_mode else "light"],
                     margin={"top": 40, "right": 80, "bottom": 80, "left": 80},
